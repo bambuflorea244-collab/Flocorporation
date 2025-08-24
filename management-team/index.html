@@ -1,13 +1,43 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Flocorporation.Management.Team — Flocorporation</title>
+  <title>Flocorporation.Management.Team — Official</title>
+  <link rel="stylesheet" href="../assets/style.css" />
 </head>
 <body>
-  <h1>Flocorporation.Management.Team</h1>
-  <p>This page is tied to your <strong>Flocorporation.Management.Team</strong> Facebook page.</p>
-  <p><a href="../">← Back to Home</a></p>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <a class="brand" href="../">Flocorporation</a>
+        <span class="badge">Official</span>
+      </div>
+      <nav class="nav">
+        <a href="../">Home</a>
+        <a href="./">Management.Team</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container hero">
+    <h1 class="h1">Flocorporation Management Team</h1>
+    <p class="p">This page is tied to the <strong>Flocorporation.Management.Team</strong> Facebook page.</p>
+
+    <div class="card stack">
+      <h3>About</h3>
+      <p>Leadership resources, governance, and internal administration guidelines.</p>
+    </div>
+
+    <div class="stack" style="margin-top:20px">
+      <a class="btn" href="https://facebook.com/your-management-team-page" target="_blank">Visit on Facebook</a>
+      <a class="btn" href="../privacy.html">Privacy Policy</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="y"></span> Flocorporation • All rights reserved</div>
+  </footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
 </html>
